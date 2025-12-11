@@ -1,9 +1,9 @@
 # Vietnamese Traffic Sign Recognition (ViT vs YOLOv8)
 
-[![Open In Colab – ViT](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USER>/<REPO>/blob/main/notebooks/ViT_TrafficSign.ipynb)
-[![Open In Colab – YOLOv8](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USER>/<REPO>/blob/main/notebooks/YOLOv8_TrafficSign.ipynb)
+[![Open In Colab – ViT](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Peter-Nguyen-1006/Vietnamese-Traffic-Sign-Recognition/blob/main/notebooks/ViT_TrafficSign.ipynb)
+[![Open In Colab – YOLOv8](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Peter-Nguyen-1006/Vietnamese-Traffic-Sign-Recognition/blob/main/notebooks/YOLOv8_TrafficSign.ipynb)
 
-**VN**: Dự án nhận diện biển báo giao thông Việt Nam, so sánh **Vision Transformer (ViT)** và **YOLOv8-classification**. Repo cung cấp notebook huấn luyện – đánh giá, biểu đồ Loss/Accuracy, Confusion Matrix, và demo Streamlit.
+**VN**: Đề tài nhận diện biển báo giao thông Việt Nam, so sánh **Vision Transformer (ViT)** và **YOLOv8-classification**. Repo cung cấp notebook huấn luyện – đánh giá, biểu đồ Loss/Accuracy, Confusion Matrix, và demo Streamlit.
 
 **EN**: Vietnamese traffic sign classification with **ViT** and **YOLOv8-cls**. This repo includes training/evaluation notebooks, Loss/Accuracy curves, confusion matrices, and a Streamlit demo.
 
@@ -20,6 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## 2. Data
+- Datasets: https://drive.google.com/file/d/1KSL3_xibiwCM2RXoxbvhbYzlj1mB7QiE/view?usp=sharing
 - Download `myData.zip` from your storage (Google Drive, etc.).
 - Unzip to `data/myData/`.
 - Notebooks contain 80/10/10 split logic; YOLO uses `configs/traffic.yaml`.
