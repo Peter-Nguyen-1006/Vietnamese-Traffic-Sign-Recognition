@@ -1,0 +1,9 @@
+# YOLOv8 classification data config
+path: dataset
+train: train
+val: val
+test: test
+# names:  # optional for classification; inferred from folder names if omitted
+#   0: 0
+#   1: 1
+#   ...
